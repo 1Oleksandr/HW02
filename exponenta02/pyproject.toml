@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "exponenta02"
+version = "0.1.0"
+description = "Personal assistant Addressbook, Notebook, Sorting files"
+authors = ["1Oleksandr <kondratiuk.ai@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.4"
+prompt-toolkit = "3.0.41"
+
+[tool.poetry.scripts]
+exponenta = "main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
